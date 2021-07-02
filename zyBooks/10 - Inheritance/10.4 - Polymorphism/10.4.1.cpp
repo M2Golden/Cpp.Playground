@@ -18,7 +18,7 @@ public:
    // FIXME: Define PrintItem() member function
 
    /* Your solution goes here  */
-  virtual void PrintItem() {
+  virtual void PrintItem() const{
       cout << "Last name: " << lastName << endl;  
    }
 
